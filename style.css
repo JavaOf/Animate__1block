@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #252525;
+    border: solid 5px yellow;
+    border-radius: 20px;
+}
+.parent{
+    margin: 220px auto;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    background-color: blanchedalmond;
+    animation: p 6s linear infinite;
+}
+@keyframes p{
+    100%{
+      transform: rotate(360deg);
+    }
+}
+
+.div1{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-color: blanchedalmond;
+    border-radius: 50%;
+    animation: alpha 6s linear infinite;
+    border: solid 2px red;
+}
+@keyframes alpha{
+    0%{
+    
+    }
+    50%{
+        background-color: blue;
+        transform: translate(-250px);
+    }
+    100%{
+        background-color: blanchedalmond ;
+        transform: translate(0px);
+    }
+}
+.div2{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-color: blanchedalmond;
+    border-radius: 50%;
+    animation: betta 6s linear infinite;
+    border: 2px solid blue;
+}
+@keyframes betta{
+    0%{
+    
+    }
+    50%{
+        background-color: red;
+        transform: translateX(250px);
+        
+    }
+    100%{
+        background-color: blanchedalmond ;
+        transform: translateX(0px);
+    }
+}
+.div4{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-color: blanchedalmond;
+    border-radius: 50%;
+    animation: ga 6s linear infinite;
+    border: solid 2px red;
+}
+@keyframes ga{
+    0%{
+    
+    }
+    50%{
+        background-color: green;
+        transform: translateY(250px);
+    }
+    100%{
+        background-color: blanchedalmond ;
+        transform: translateY(0px);
+    }
+}
+.div3{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-color:blanchedalmond ;
+    border-radius: 50%;
+    animation: a 6s linear infinite;
+    border: solid 2px blue;
+}
+@keyframes a{
+    0%{
+    
+    }
+    50%{
+        background-color: yellow;
+        transform: translateY(-250px);
+    }
+    100%{
+        background-color: blanchedalmond ;
+        transform: translateY(0px);
+    }
+}
